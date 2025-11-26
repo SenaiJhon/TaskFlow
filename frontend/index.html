@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>TaskFlow Solutions</h1>
+        <h2>Gerenciador de Tarefas Simples</h2>
+    </header>
+
+    <main>
+        <section id="add-task-section">
+            <h3>Criar Nova Tarefa</h3>
+            <form id="task-form">
+                <input type="text" id="title" placeholder="Nome da Tarefa" required>
+                <input type="date" id="due-date" required>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="task-list-section">
+            <div class="controls">
+                <h3>Minhas Tarefas</h3>
+                <button id="sort-button">Ordenar por Data Prevista</button>
+            </div>
+
+            <ul id="tasks-list">
+            </ul>
+        </section>
+    </main>
+    
+    <div id="custom-modal" class="modal">
+        <div class="modal-content">
+            <p id="modal-message">Você tem certeza?</p>
+            <button id="modal-cancel-btn">Não, Cancelar</button>
+            <button id="modal-confirm-btn" class="action-btn delete-btn">Sim, Confirmar</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
