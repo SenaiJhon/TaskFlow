@@ -1,4 +1,4 @@
-## 🚀 TaskFlow Solutions: Gerenciador de Tarefas CRUD
+## 🚀 TaskFlow Solutions: Gerenciador de Tarefas CRUD 
 
 Este projeto é uma aplicação web completa de gerenciamento de tarefas, implementando o padrão **CRUD (Criar, Ler, Atualizar e Excluir)** e recursos de ordenação. O projeto é estruturado em duas camadas principais: um **Back-end (API REST)** em Node.js com Express e MySQL, e um **Front-end** simples em HTML, CSS e JavaScript puro (Vanilla JS).
 
